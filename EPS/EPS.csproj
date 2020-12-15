@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>com.audionysos.general</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>c:\users\suchy\source\repos\ExtendedProperties\EPS\EPS.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <Import Project="..\EPSCommon\EPSCommon.projitems" Label="Shared" />
+
+</Project>
